@@ -8,17 +8,6 @@ SOAP services often suffer from the lack of flexibility in comparison to RESTful
  
 
  overly verbose and hard to maintain
- ##### Notes (not part of abstract):
-REST vs. SOAP: Why REST is more common & flexible to use than SOAP. This is relevant for a developer to have the knowledge for, since SOAP & REST are the most popular Web Service's Protocol in the IT-industry to integrat different systems.
-
-cons for soap: old, not as simple as rest, soap relies only on XML, harder to develop, hard to setup, heavyweight, higher learning curve, expensive tools required, doesnt use get/post/put/delete http protocol, REST APIs are taking over, 
-
-
-
-A WSDL file is hard to change, and if a SOAP web service needs to be extended, modified or deprecated in some small form, it’s a big change for both the internal developers and the users (who now must adapt to the new contract).
-
-
-the XML used in SOAP can become complex and more difficult to program as it tends to be verbose with the XML messaging structure containing an envelope, header, body and fault elements. </p>.................................
 
 ## Introduction
 In the old days, SOAP services were the main protocol to web-based services. Today, SOAP is taking a toll on the modern day developer because it is still used in legacy systems, and some developers choose's SOAP since it support  WS-Security which can come in handy. Also, it is overly verbose and hard to maintain. Nowadays developers generally prefer RESTful web services since it is more widely known, new and easy to use.
