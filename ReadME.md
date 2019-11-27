@@ -10,7 +10,7 @@ SOAP services often suffer from the lack of flexibility in comparison to RESTful
  
  <h1>  REST <span class="emoji">🆚</span> SOAP </h1>
  
-<h3> Introduction </h3>
+<h3> Introduction <g-emoji class="g-emoji" alias="page_facing_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png">📄</g-emoji> </h3>
 
 In the old days, SOAP services were the main protocol to web-based services. Today, SOAP is taking a toll on the modern day developer because it is still used in legacy systems, and some developers choose's SOAP since it support  WS-Security which can come in handy. Also, it is overly verbose and hard to maintain. Nowadays developers generally prefer RESTful web services since it is more widely known, new and easy to use.
 
