@@ -50,7 +50,7 @@ RESTful elements consist of:
 
 
 NOTE:: Elaborate in the conclusion about how SOAP exposes all of its functionality(creating a state of the current instance), while RESTful webservices are stateless, and therefore more flexible in terms of developing these web-services
-
+-
 The problem lies in SOAP being overly verbose and hard to maintain. Other than problems such as these.
 
 How does SOAP lack of flexibility in comparison to REST? 
@@ -63,6 +63,8 @@ we had
 Some of the problems we encounted during our experiment had mainly to do with SOAP. We had no freedom of choice when it came to the response (only XML) as we did with REST (JSON,XML etc.). Also we spent more time doing the SOAP part, because the lines of code was more than in REST. 
 
 ## Evidence, evidence, evidence
+
+<h1>evidence from our project</h1>
 
 <h5>The following screenshots contain relevant evidence and explanations from our mini assignment in system integration</h5>
 <p>(for more details on the project, click <a href="https://github.com/Mokayed/Mini-Project-Web-Services"> here</a>)</p>
@@ -100,8 +102,12 @@ tool used for results: bash (<a href="https://stackoverflow.com/questions/343558
 <img src="./LinesOfCodeSOAP.png">
 <figcaption>lines of code in our SOAP project</figcaption>
 
-<h6>the resulsts shows and proofs, that the SOAP project is much more verbose than the REST project.</h6>
+<h6>the results shows and proofs, that the SOAP project is much more verbose than the REST project.</h6>
 </figure>
+
+<h1>Evidence on usability in SOAP vs REST in the industry</h1>
+
+
 
 murched: make research to find some ecidence from the internet (related articles that proofs things that our own project does not)
 
