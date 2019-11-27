@@ -73,7 +73,7 @@ Some of the problems we encounted during our experiment had mainly to do with SO
 
 
 
-<h1>Evidence from our project</h1>
+<h1>Evidence from our project <g-emoji class="g-emoji" alias="mag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png">🔍</g-emoji></h1>
 
 <h5>The following screenshots contain relevant evidence and explanations from our mini assignment in system integration</h5>
 
