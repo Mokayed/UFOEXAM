@@ -79,44 +79,62 @@ Some of the problems we encounted during our experiment had mainly to do with SO
 
 <h1>Evidence from our project <g-emoji class="g-emoji" alias="mag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png">🔍</g-emoji></h1>
 
-<h5>The following screenshots contain relevant evidence and explanations from our mini assignment in system integration</h5>
-
-<p>(for more details on the project, click <a href="https://github.com/Mokayed/Mini-Project-Web-Services"> here</a>)</p>
+<p>The following screenshots contain relevant evidence and explanations from our mini assignment in system integration. In the following points, we will discuss the diffirence between SOAP/REST requests and response according to our experience from our project. We will also explain the WSDL file in the project, then we will show our endpoints. Finally we will conclude by counting the amount of lines comparably between the SOAP and REST project. For more details on the project, click <a href="https://github.com/Mokayed/Mini-Project-Web-Services"> here</a>.</p>
 
 <figure>
 <h4>1. Requests in SOAP vs REST</h4>
+
+<figcaption><li>Deposit request in REST using postman</li></figcaption>
+
   <img src="./RESTrequest.png" alt="{{ include.description }}">
-  <figcaption><li>deposit request in REST using postman</li></figcaption>
+  
+<figcaption><li>Deposit request in SOAP using SoapUI</li></figcaption>
+
   <img src="./SOAPrequest.png" width="800" height="200"/>
-  <figcaption><li>deposit request in SOAP using SoapUI</li></figcaption>
-  <h6>During development we had a much easier time dealing with REST requests, not only because of us having more knowledge on it, but also because we spent more time in average on building the envelope request whereas the REST request could be made in seconds.</h6>
+  
+  <p>During development we had a much easier time dealing with REST requests, We had already knowledge about REST but that was not the reason that it made it simpler for us than in SOAP, it is because we spent more time in average on building the envelope SOAP request whereas the REST request could be made in seconds.</p>
+
   <h4>2. Response in SOAP vs REST</h4>
+
+<figcaption><li>The response in REST</li></figcaption>
+
   <img src="./RESTresponse.png" width="300" height="100">
-<figcaption><li>the response in REST</li></figcaption>
+
+
+<figcaption><li>The response in SOAP</li></figcaption>
+
 <img src="./SOAPresponse.png" width="700" height="200">
-<figcaption><li>the response in SOAP</li></figcaption>
-  <h6>As seen, the response from SOAP is in XML format, and this is something that cannot be changed in SOAP. In REST, the data format was our own choice. As seen we went for JSON. As a result of it being JSON the resposne became much smaller than the envelope response</h6>
+
+
+  <p>As seen, the response from SOAP is made in XML format, and this is something that cannot be changed in SOAP. In REST there is more data-format opportunities to choose. As seen we went for JSON. As a result of it being JSON the resposne became much smaller than the envelope response</p>
 
 <h4>3. The SOAP WSDL File</h4>
-<h6>in SOAP, there is only one place to go for requesting endpoints, and that is the WSDL url. Our file ended up having 193 lines of xml code and can be seen by clicking <a href="./customerDetailsWsdl.wsdl.xml"> here</a>. Although we liked the idea of having requests/responses very well structured in WSDL, we could not help feeling annoyed by it being XML, and very verbose. In REST there is no WSDL file where it relies upon the HTTP standard.</h6>
+
+<p> There is only one place to go for requesting endpoints in SOAP, and that is the WSDL url. Our file ended up having 193 lines of xml code and can be seen by clicking <a href="./customerDetailsWsdl.wsdl.xml"> here</a>. Although we liked the idea of having requests/responses very well structured in WSDL, we could not help feeling annoyed by it being XML, and very verbose. In REST there is no WSDL file as it relies upon the HTTP standard.</p>
 
 <h4>4. Endpoints</h4>
+
+<figcaption><li>Endpoint for showing customer name and it's details in REST + shown on browser</li></figcaption>
 <img src="./RESTCustomerEndpoint.png">
 <img src="./RESTNamePathVariable.png">
 <img src="./RESTCustomerNameBrowser.png">
-<figcaption><li>endpoint for showing customer name and it's details in REST + shown on browser</li></figcaption>
+
+<figcaption><li>Endpoint for deposit request in SOAP, which can only be referred to from the WSDL url</li></figcaption>
 <img src="./SOAPDepositEndpoint.png">
-<figcaption><li>endpoint for deposit request in SOAP, which can only be referred to from the WSDL url</li></figcaption>
-<h6>As seen, the REST implementation of the endpoints are very simple, however in SOAP you need to make both a request and response endpoint which ends up being alot of code.<h6>
+
+<p>As seen, the REST implementation of the endpoints are very simple, however in SOAP you need to make both a request and response endpoint which ends up being alot of code.</p>
+
 <h4>5. Total lines of code</h4>
 
-tool used for results: bash (<a href="https://stackoverflow.com/questions/3435581/how-to-count-lines-of-java-code-using-intellij-idea">reference</a>)
+tool used for couting lines of code in SOAP/REST is bash <a href="https://stackoverflow.com/questions/3435581/how-to-count-lines-of-java-code-using-intellij-idea">source</a>
+<figcaption><li>lines of code in our REST project is 302</li></figcaption>
 <img src="./LinesOfCodeREST.png">
-<figcaption>lines of code in our REST project</figcaption>
+<figcaption><li>lines of code in our SOAP project is 1339</li></figcaption>
 <img src="./LinesOfCodeSOAP.png">
-<figcaption>lines of code in our SOAP project</figcaption>
 
-<h6>the results shows and proofs, that the SOAP project is much more verbose than the REST project.</h6>
+
+<p>The results show and proof, that the SOAP project is more verbose than the REST project.</p>
+
 </figure>
 
 <h1>Evidence on usability in SOAP vs REST in the industry <g-emoji class="g-emoji" alias="chart_with_downwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c9.png">📉</g-emoji></h1>
@@ -124,21 +142,21 @@ tool used for results: bash (<a href="https://stackoverflow.com/questions/343558
 
 <img src="./digrams.PNG" align="left">
 
-<p>REST is successful since it is the most used service in the industy. 73% of the APis on Programmable Web use REST. SOAP is far behind but is still represented in 17% of the APIs. The reasoins that makes rest is more in use that it is much easier to implement since it requires less bandwidth and resources, and the uses standard HTTP in rest is much simpler. </p>
+<p>REST is successful since it is the most used service in the industy. Already in 2011, 73% of the APis on Programmable Web used REST. SOAP is far behind but is still represented in 17% of the APIs. The reasoins that makes rest is more in use that it is much easier to implement since it requires less bandwidth and resources, and the uses standard HTTP in rest is much simpler. </p>
 
 <p>REST supports diffrent data types one of the types is JSON, which allows better support for browser clients. One of the main reseans that REST is successful, that REST have better performance and scalability since it's reads can be cached, SOAP based reads cannot be cached. REST supports stateless CRUD operations, which gives the developer a better overview on the data. to read more by clicking <a href="https://medium.com/@LazaroIbanez/soap-vs-rest-68faf2ea970e
 "> here</a>. </p>
 
 <p>There is nothing useful in SOAP that can't be done with REST for transport, and JSON, XML, or even plain text for data representation, to read more take a look on that<a href="https://stackoverflow.com/questions/76595/soap-or-rest-for-web-services"> link</a>. </p>
 
-<p>REST allows a better variety of data formats, whereas SOAP only allows XML. Coupled with JSON (which typically works better with data and offers faster parsing), REST is generally considered easier to work with. Thanks to JSON, REST offers better support for browser clients, you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>.</p>
+<p>REST allows a better variety of data formats, whereas SOAP only allows XML. REST is generally considered easier to work with. Thanks to JSON which typically works better with data and offers faster parsing, REST offers better support for browser clients, you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>.</p>
 
 <br>
 <br>
 
 <p> diagram link: <a href="https://www.infoq.com/news/2011/06/Is-REST-Successful/"> infoq.com</a> </p>
 
-<h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1> 
+<h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1>
 
 
 ## Consequences
