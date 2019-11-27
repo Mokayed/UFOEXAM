@@ -117,8 +117,7 @@ tool used for results: bash (<a href="https://stackoverflow.com/questions/343558
 
 <h1>Evidence on usability in SOAP vs REST in the industry <g-emoji class="g-emoji" alias="chart_with_downwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c9.png">📉</g-emoji></h1>
 
-<p> The digram is from :
-<a>https://www.infoq.com/news/2011/06/Is-REST-Successful/</a></p>
+<p> The digram is from : <a>https://www.infoq.com/news/2011/06/Is-REST-Successful/</a></p>
 
 <br>
 
