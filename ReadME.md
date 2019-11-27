@@ -1,5 +1,6 @@
 <h1 align="center"> SI Project - SOAP/REST Services </h1>
-<img align="center" src="SOAP-vs-REST-.png"/>
+
+<img  src="SOAP-vs-REST-.png"/>
 
 #####  REST vs. SOAP
 
