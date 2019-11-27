@@ -1,17 +1,24 @@
 <h1 align="center"> SI Project - SOAP/REST Services </h1>
 
 
-<h3>  REST <span class="emoji">🆚</span> SOAP </h3>
+
 
 SOAP services often suffer from the lack of flexibility in comparison to RESTful services. This leads to high maintainence and limits the overall possibilities because of its outdated protocol. Addressing these issues, is to give a clear understanding of the challenges with SOAP, and why REST is more common and flexible to use for developers. 
- 
+
 
  overly verbose and hard to maintain
+ 
+ <h1>  REST <span class="emoji">🆚</span> SOAP </h1>
+ 
+<h3> Introduction </h3>
 
-## Introduction
 In the old days, SOAP services were the main protocol to web-based services. Today, SOAP is taking a toll on the modern day developer because it is still used in legacy systems, and some developers choose's SOAP since it support  WS-Security which can come in handy. Also, it is overly verbose and hard to maintain. Nowadays developers generally prefer RESTful web services since it is more widely known, new and easy to use.
 
-## SOAP(Simple Object Access Protocol)
+
+
+<h3>What is REST & SOAP <g-emoji class="g-emoji" alias="interrobang" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2049.png">⁉️</g-emoji></h3>
+
+<h3> SOAP(Simple Object Access Protocol) </h3>
 SOAP is a messaging protocol for the exchange of structured information(XML) in regards of web-service development. SOAP uses XML-structure for the format of messages, relies on protocols such as HTTP and SMTP for data transmission and message exchangement. XML communation consists of several elements to achieve messaging and its major characteristics: 
 
 - An envelope, which indicates how the message is structured and how it gets processed. 
