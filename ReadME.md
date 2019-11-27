@@ -140,7 +140,12 @@ murched: make research to find some ecidence from the internet (related articles
 hazem: Definition af SOAP, definition af REST. Find artikler omkring SOAP disadvantages.
 reference to difference between SOAP and REST:(https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/) 
 
-## Conclusion 
+
+
+
+<h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1> 
+
+
 ## Consequences
 
 https://github.com/Mokayed/Mini-Project-Web-Services
