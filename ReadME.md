@@ -176,10 +176,10 @@ Verbose and requires high maintainence. Not a popular choice among developers. I
 
 ## References
 <ol>
-  <li>Simple Access Object Protocol (SOAP) <a>https://en.wikipedia.org/wiki/SOAP</a></li>
-  <li>Representational State Transfer (REST) <a>https://en.wikipedia.org/wiki/Representational_state_transfer</a></li>
-  <li>Mini Project Assignment 1 System Integration <a>https://github.com/Mokayed/Mini-Project-Web-Services</a></li>
-  <li>WSDL file in our SOAP project <a>./customerDetailsWsdl.wsdl.xml</a></li>
-  <li>Controller containing endpoints in our REST project <a>https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/ResttfulService/src/main/java/dk/dd/demo/controller/CustomerController.java</a></li>
-  <li>Request and Response endpoints in our SOAP project <a>https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java</a></li>
+  <li>Simple Access Object Protocol (SOAP) <a href="https://en.wikipedia.org/wiki/SOAP">https://en.wikipedia.org/wiki/SOAP</a></li>
+  <li>Representational State Transfer (REST) <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">https://en.wikipedia.org/wiki/Representational_state_transfer</a></li>
+  <li>Mini Project Assignment 1 System Integration <a href="https://github.com/Mokayed/Mini-Project-Web-Services">https://github.com/Mokayed/Mini-Project-Web-Services</a></li>
+  <li>WSDL file in our SOAP project <a href="customerDetailsWsdl.wsdl.xml">./customerDetailsWsdl.wsdl.xml</a></li>
+  <li>Controller containing endpoints in our REST project <a href="https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/ResttfulService/src/main/java/dk/dd/demo/controller/CustomerController.java">https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/ResttfulService/src/main/java/dk/dd/demo/controller/CustomerController.java</a></li>
+  <li>Request and Response endpoints in our SOAP project <a href="https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java">https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java</a></li>
 </ol> 
