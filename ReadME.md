@@ -1,6 +1,5 @@
 <h1 align="center"> SI Project - SOAP/REST Services </h1>
 
-<img  src="SOAP-vs-REST-.png"/>
 
 <h3>  REST <span class="emoji">🆚</span> SOAP </h3>
 
