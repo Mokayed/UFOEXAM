@@ -3,10 +3,8 @@
 
 
 
-SOAP services often suffer from the lack of flexibility in comparison to RESTful services. This leads to high maintainence and limits the overall possibilities because of its outdated protocol. Addressing these issues, is to give a clear understanding of the challenges with SOAP, and why REST is more common and flexible to use for developers. 
+SOAP services often suffer from the lack of flexibility in comparison to RESTful services. This leads to high maintainence and limits the overall possibilities because of its outdated protocol. Addressing these issues, is to give a clear understanding of the challenges with SOAP, and why REST is more common and flexible to use for developers, and SOAP is overly verbose and hard to maintain. 
 
-
- overly verbose and hard to maintain
  
  <h1>  REST <span class="emoji">🆚</span> SOAP </h1>
  
@@ -168,6 +166,7 @@ However, SOAP still have advantages, it supports WS-security which adds some sec
 <br>
 
 <h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1>
+
 
 Verbose and requires high maintainence. Not a popular choice among developers. Industry is adopting to RESTful standards since it is more flexible and popular among its developers. SOAP contains alot of boilerplate code, where REST can implement the same business logic inn 1/4th of the code.Hence, that SOAP is still being used as a service in the real world, whereas more larger legacy systems are still using SOAP, and where it is harder to adopt REST in their systems. A base case is, that SOAP is being maintained, and REST is the future of development for thessssse respective fields. We also have more choices in data types in REST than the one (XML) that is in SOAP.
 
