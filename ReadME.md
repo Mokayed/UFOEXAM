@@ -71,11 +71,12 @@ we had
 
 Some of the problems we encounted during our experiment had mainly to do with SOAP. We had no freedom of choice when it came to the response (only XML) as we did with REST (JSON,XML etc.). Also we spent more time doing the SOAP part, because the lines of code was more than in REST. 
 
-## Evidence, evidence, evidence
 
-<h1>evidence from our project</h1>
+
+<h1>Evidence from our project</h1>
 
 <h5>The following screenshots contain relevant evidence and explanations from our mini assignment in system integration</h5>
+
 <p>(for more details on the project, click <a href="https://github.com/Mokayed/Mini-Project-Web-Services"> here</a>)</p>
 
 <figure>
