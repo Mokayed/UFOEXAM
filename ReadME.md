@@ -1,5 +1,5 @@
 # SI Project - SOAP/REST Services
-<img src="SOAP-vs-REST-.png"/>
+<center> <img src="SOAP-vs-REST-.png"/> </center>
 
 #####  REST vs. SOAP
 
