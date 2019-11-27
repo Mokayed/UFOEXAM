@@ -41,7 +41,7 @@ SOAP is a messaging protocol for the exchange of structured information(XML) in 
   Picture links:(https://www.studytonight.com/rest-web-service/types-of-webservices)
   
   
-<h4> REST(REpresentational State Transfer) </h4>
+<h4> REST(REpresentational State Transfer) <img class="mi pn dp t u gs al hc" width="51" height="34" role="presentation" src="https://miro.medium.com/max/599/1*uHzooF1EtgcKn9_XiSST4w.png"> </h4>
 
 REST is an architectural style for developing web-services. Some knows this as the successor of SOAP-based services. This is also known as RESTful web-services. This style, allows the requesting system to manipulate textual documents(or representations) by using a set of stateless operations. 
 Reference:(https://en.wikipedia.org/wiki/Representational_state_transfer)
