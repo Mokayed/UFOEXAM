@@ -40,6 +40,8 @@ SOAP is a messaging protocol for the exchange of structured information(XML) in 
 
 
 <br>
+<br>
+<br>
 
   Picture links:(https://www.studytonight.com/rest-web-service/types-of-webservices)
   
