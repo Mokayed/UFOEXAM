@@ -18,7 +18,7 @@ In the old days, SOAP services were the main protocol to web-based services. Tod
 
 <h3>What is REST & SOAP <g-emoji class="g-emoji" alias="interrobang" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2049.png">⁉️</g-emoji></h3>
 
-<h3> SOAP(Simple Object Access Protocol) </h3>
+<h5> SOAP(Simple Object Access Protocol) </h5>
 SOAP is a messaging protocol for the exchange of structured information(XML) in regards of web-service development. SOAP uses XML-structure for the format of messages, relies on protocols such as HTTP and SMTP for data transmission and message exchangement. XML communation consists of several elements to achieve messaging and its major characteristics: 
 
 - An envelope, which indicates how the message is structured and how it gets processed. 
@@ -32,7 +32,10 @@ SOAP is a messaging protocol for the exchange of structured information(XML) in 
   ![](/SOAP-envelope.png)
   ![](SOAP-message.png)
   Picture links:(https://www.studytonight.com/rest-web-service/types-of-webservices)
-## REST(REpresentational State Transfer)
+  
+  
+<h5> REST(REpresentational State Transfer) </h5>
+
 REST is an architectural style for developing web-services. Some knows this as the successor of SOAP-based services. This is also known as RESTful web-services. This style, allows the requesting system to manipulate textual documents(or representations) by using a set of stateless operations. 
 Reference:(https://en.wikipedia.org/wiki/Representational_state_transfer)
 RESTful elements consist of:
