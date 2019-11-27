@@ -20,10 +20,12 @@ In the old days, SOAP services were the main protocol to web-based services. Tod
 
 <h4> SOAP(Simple Object Access Protocol) </h4>
 
-SOAP is a messaging protocol for the exchange of structured information(XML) in regards of web-service development. SOAP uses XML-structure for the format of messages, relies on protocols such as HTTP and SMTP for data transmission and message exchangement. XML communation consists of several elements to achieve messaging and its major characteristics: 
-
 
 <img src="./SOAP-envelope.png" align="left">
+<img src="./SOAP-envelope.png" align="left">
+
+SOAP is a messaging protocol for the exchange of structured information(XML) in regards of web-service development. SOAP uses XML-structure for the format of messages, relies on protocols such as HTTP and SMTP for data transmission and message exchangement. XML communation consists of several elements to achieve messaging and its major characteristics: 
+
 
 - An envelope, which indicates how the message is structured and how it gets processed. 
 - Encoding rules, which specifies the accessible data-types.
@@ -33,7 +35,7 @@ SOAP is a messaging protocol for the exchange of structured information(XML) in 
 - Extensibility 
   references: (https://en.wikipedia.org/wiki/SOAP)
 
-<img src="./SOAP-message.png" align="left">
+
 
 
   Picture links:(https://www.studytonight.com/rest-web-service/types-of-webservices)
