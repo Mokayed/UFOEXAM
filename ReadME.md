@@ -20,7 +20,7 @@ A WSDL file is hard to change, and if a SOAP web service needs to be extended, m
 the XML used in SOAP can become complex and more difficult to program as it tends to be verbose with the XML messaging structure containing an envelope, header, body and fault elements. </p>.................................
 
 ## Introduction
-In the old days, SOAP services were the main protocol to web-based services. Today, SOAP is taking a toll on the modern day developer because it is still used in legacy systems. Also, it is overly verbose and hard to maintain. Nowadays developers generally prefer RESTful web services since it is more widely known, new and easy to use.
+In the old days, SOAP services were the main protocol to web-based services. Today, SOAP is taking a toll on the modern day developer because it is still used in legacy systems, and some developers choose's SOAP since it support  WS-Security which can come in handy. Also, it is overly verbose and hard to maintain. Nowadays developers generally prefer RESTful web services since it is more widely known, new and easy to use.
 
 ## SOAP(Simple Object Access Protocol)
 SOAP is a messaging protocol for the exchange of structured information(XML) in regards of web-service development. SOAP uses XML-structure for the format of messages, relies on protocols such as HTTP and SMTP for data transmission and message exchangement. XML communation consists of several elements to achieve messaging and its major characteristics: 
