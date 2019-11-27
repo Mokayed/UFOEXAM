@@ -107,6 +107,22 @@ tool used for results: bash (<a href="https://stackoverflow.com/questions/343558
 
 <h1>Evidence on usability in SOAP vs REST in the industry</h1>
 
+<p> The digram is from :
+<a>https://www.infoq.com/news/2011/06/Is-REST-Successful/</a></p>
+
+<br>
+
+<img src="./digrams.PNG" align="left">
+
+<p>REST is successful since it is the most used service in the industy. 73% of the APis on Programmable Web use REST. SOAP is far behind but is still represented in 17% of the APIs. The reasoins that makes rest is more in use that it is much easier to implement since it requires less bandwidth and resources, and the uses standard HTTP in rest is much simpler. </p>
+
+<p>REST supports diffrent data types one of the types is JSON, which allows better support for browser clients. One of the main reseans that REST is successful, that REST have better performance and scalability since it's reads can be cached, SOAP based reads cannot be cached. REST supports stateless CRUD operations, which gives the developer a better overview on the data. to read more by clicking <a href="https://medium.com/@LazaroIbanez/soap-vs-rest-68faf2ea970e
+"> here</a>. </p>
+
+<p>There is nothing useful in SOAP that can't be done with REST for transport, and JSON, XML, or even plain text for data representation, to read more take a look on that<a href="https://stackoverflow.com/questions/76595/soap-or-rest-for-web-services"> link</a>. </p>
+
+<p>REST allows a better variety of data formats, whereas SOAP only allows XML. Coupled with JSON (which typically works better with data and offers faster parsing), REST is generally considered easier to work with. Thanks to JSON, REST offers better support for browser clients, you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>.</p>
+
 
 
 murched: make research to find some ecidence from the internet (related articles that proofs things that our own project does not)
