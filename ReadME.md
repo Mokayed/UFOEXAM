@@ -132,7 +132,7 @@ tool used for results: bash (<a href="https://stackoverflow.com/questions/343558
 <br>
 <br>
 
-<p> diagram link : : <a href="https://www.infoq.com/news/2011/06/Is-REST-Successful/"> infoq.com</a> </p>
+<p> diagram link: <a href="https://www.infoq.com/news/2011/06/Is-REST-Successful/"> infoq.com</a> </p>
 
 <h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1> 
 
