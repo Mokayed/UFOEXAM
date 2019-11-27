@@ -130,6 +130,8 @@ tool used for results: bash (<a href="https://stackoverflow.com/questions/343558
 <p>REST allows a better variety of data formats, whereas SOAP only allows XML. Coupled with JSON (which typically works better with data and offers faster parsing), REST is generally considered easier to work with. Thanks to JSON, REST offers better support for browser clients, you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>.</p>
 
 <br>
+<br>
+
 <p> diagram link : : <a href="https://www.infoq.com/news/2011/06/Is-REST-Successful/"> infoq.com</a> </p>
 
 <h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1> 
