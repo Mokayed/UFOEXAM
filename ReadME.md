@@ -1,4 +1,5 @@
 <h1 align="center"> REST is taking over SOAP </h1>
+<p>by: Hallur við Neyst, Murshed Kayed, Hazem Saeid</b>
 
 
 
@@ -57,18 +58,7 @@ RESTful elements consist of:
 - **Uniform Interface**
 - **Layered System**
 ![](/REST.jpg)
-
-
-NOTE: Elaborate in the conclusion about how SOAP exposes all of its functionality(creating a state of the current instance), while RESTful webservices are stateless, and therefore more flexible in terms of developing these web-services
--
-The problem lies in SOAP being overly verbose and hard to maintain. Other than problems such as these.
-
-How does SOAP lack of flexibility in comparison to REST? 
-Why is SOAP causing higher maintainence in comparison to REST? 
-Why is REST more preferable than SOAP? 
-we had 
-
-#### notes:
+<p>REST webservice: <a href="https://medium.com/@sagar.mane006/understanding-rest-representational-state-transfer-85256b9424aa">https://medium.com/@sagar.mane006/understanding-rest-representational-state-transfer-85256b9424aa</a></p>
 
 Some of the problems we encounted during our experiment had mainly to do with SOAP. We had no freedom of choice when it came to the response (only XML) as we did with REST (JSON,XML etc.). Also we spent more time doing the SOAP part, because the lines of code was more than in REST. 
 
@@ -159,7 +149,7 @@ tool used for couting lines of code in SOAP/REST is bash
 <p>REST allows a better variety of data formats, whereas SOAP only allows XML. REST is generally considered easier to work with. Thanks to JSON which typically works better with data and offers faster parsing, REST offers better support for browser clients, you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>.</p>
 
 
-However, SOAP still have advantages, it supports WS-security which adds some security features, SOAP uses WSDL makes your requests and responses very well structured.  SOAP works well in distributed enterprise environments where REST assumes direct point-to-point communication. The major advantage of SOAP is that it is a light-weight protocol since it is XML based, since xml is a lightweight data interchange language.
+However, SOAP still have advantages<sup>7</sup>, it supports WS-security which adds some security features, SOAP uses WSDL makes your requests and responses very well structured.  SOAP works well in distributed enterprise environments where REST assumes direct point-to-point communication. The major advantage of SOAP is that it is a light-weight protocol since it is XML based, since xml is a lightweight data interchange language.
 
 
 <br>
@@ -167,11 +157,8 @@ However, SOAP still have advantages, it supports WS-security which adds some sec
 
 <h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1>
 
+After comparing REST and SOAP in various areas in our project, we see a pattern in where REST is being adopted as the new industry standard, also being referenced as the successor of SOAP. The comparisons that made us most sure had to do with popularity, flexibilty, verbosity and maintenance. In the experiments that we conducted showed a significant diffirence in creating SOAP services and required a great amount of work in comparison to constructing RESTful webservices. However, SOAP still contains some positive elements, one of them being WS-Security and a well structured request/response architecture. One of the major challenges that SOAP suffers is the flexibility regarding messaging formats, where SOAP only can use XML and REST has various diffirent messaging formats(such as JSON,XML, PLAN TEXT etc.). As a result the rise of RESTful web services are justifies, by being more suitable and compliant to the developers and to the ever-changing industries.
 
-Verbose and requires high maintainence. Not a popular choice among developers. Industry is adopting to RESTful standards since it is more flexible and popular among its developers. SOAP contains alot of boilerplate code, where REST can implement the same business logic inn 1/4th of the code.Hence, that SOAP is still being used as a service in the real world, whereas more larger legacy systems are still using SOAP, and where it is harder to adopt REST in their systems. A base case is, that SOAP is being maintained, and REST is the future of development for thessssse respective fields. We also have more choices in data types in REST than the one (XML) that is in SOAP.
-
-
-## Consequences
 
 ## References
 <ol>
@@ -181,4 +168,5 @@ Verbose and requires high maintainence. Not a popular choice among developers. I
   <li>WSDL file in our SOAP project <a href="customerDetailsWsdl.wsdl.xml">./customerDetailsWsdl.wsdl.xml</a></li>
   <li>Controller containing endpoints in our REST project <a href="https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/ResttfulService/src/main/java/dk/dd/demo/controller/CustomerController.java">https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/ResttfulService/src/main/java/dk/dd/demo/controller/CustomerController.java</a></li>
   <li>Request and Response endpoints in our SOAP project <a href="https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java">https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java</a></li>
+  <li>Understanding SOAP and REST basics <a href="https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/">https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/</a></li>
 </ol> 
