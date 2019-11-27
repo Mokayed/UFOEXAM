@@ -2,7 +2,7 @@
 
 <img  src="SOAP-vs-REST-.png"/>
 
-#####  REST vs. SOAP
+<h3>  REST <span class="emoji">🆚</span> SOAP </h3>
 
 SOAP services often suffer from the lack of flexibility in comparison to RESTful services. This leads to high maintainence and limits the overall possibilities because of its outdated protocol. Addressing these issues, is to give a clear understanding of the challenges with SOAP, and why REST is more common and flexible to use for developers. 
  
