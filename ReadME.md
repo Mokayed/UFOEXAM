@@ -64,7 +64,44 @@ Some of the problems we encounted during our experiment had mainly to do with SO
 
 ## Evidence, evidence, evidence
 
-hallur: tag screenshots af projektet i områder som: response, wsdl, endpoints, SOAPUI envelope, tilhørende tekst på hvad der sker på screenshots/sammenligninger.
+<h5>The following screenshots contain relevant evidence and explanations from our mini assignment in system integration</h5>
+<p>(for more details on the project, click <a href="https://github.com/Mokayed/Mini-Project-Web-Services"> here</a>)</p>
+
+<figure>
+<h4>1. Requests in SOAP vs REST</h4>
+  <img src="./RESTrequest.png" alt="{{ include.description }}">
+  <figcaption><li>deposit request in REST using postman</li></figcaption>
+  <img src="./SOAPrequest.png" width="800" height="200"/>
+  <figcaption><li>deposit request in SOAP using SoapUI</li></figcaption>
+  <h6>During development we had a much easier time dealing with REST requests, not only because of us having more knowledge on it, but also because we spent more time in average on building the envelope request whereas the REST request could be made in seconds.</h6>
+  <h4>2. Response in SOAP vs REST</h4>
+  <img src="./RESTresponse.png" width="300" height="100">
+<figcaption><li>the response in REST</li></figcaption>
+<img src="./SOAPresponse.png" width="700" height="200">
+<figcaption><li>the response in SOAP</li></figcaption>
+  <h6>As seen, the response from SOAP is in XML format, and this is something that cannot be changed in SOAP. In REST, the data format was our own choice. As seen we went for JSON. As a result of it being JSON the resposne became much smaller than the envelope response</h6>
+
+<h4>3. The SOAP WSDL File</h4>
+<h6>in SOAP, there is only one place to go for requesting endpoints, and that is the WSDL url. Our file ended up having 193 lines of xml code and can be seen by clicking <a href="./customerDetailsWsdl.wsdl.xml"> here</a>. Although we liked the idea of having requests/responses very well structured in WSDL, we could not help feeling annoyed by it being XML, and very verbose. In REST there is no WSDL file where it relies upon the HTTP standard.</h6>
+
+<h4>4. Endpoints</h4>
+<img src="./RESTCustomerEndpoint.png">
+<img src="./RESTNamePathVariable.png">
+<img src="./RESTCustomerNameBrowser.png">
+<figcaption><li>endpoint for showing customer name and it's details in REST + shown on browser</li></figcaption>
+<img src="./SOAPDepositEndpoint.png">
+<figcaption><li>endpoint for deposit request in SOAP, which can only be referred to from the WSDL url</li></figcaption>
+<h6>As seen, the REST implementation of the endpoints are very simple, however in SOAP you need to make both a request and response endpoint which ends up being alot of code.<h6>
+<h4>5. Total lines of code</h4>
+
+tool used for results: bash (<a href="https://stackoverflow.com/questions/3435581/how-to-count-lines-of-java-code-using-intellij-idea">reference</a>)
+<img src="./LinesOfCodeREST.png">
+<figcaption>lines of code in our REST project</figcaption>
+<img src="./LinesOfCodeSOAP.png">
+<figcaption>lines of code in our SOAP project</figcaption>
+
+<h6>the resulsts shows and proofs, that the SOAP project is much more verbose than the REST project.</h6>
+</figure>
 
 murched: make research to find some ecidence from the internet (related articles that proofs things that our own project does not)
 
