@@ -146,16 +146,16 @@ tool used for couting lines of code in SOAP/REST is bash
 
 <h6>Written by Lazaro Ibanez</h6>
 
-<p>"REST supports diffrent data types one of the types is JSON, which allows better support for browser clients. One of the main reseans that REST is successful, that REST have better performance and scalability since it's reads can be cached, SOAP based reads cannot be cached. REST supports stateless CRUD operations, which gives the developer a better overview on the data. to read more by clicking <a href="https://medium.com/@LazaroIbanez/soap-vs-rest-68faf2ea970e
-"> here</a>." </p>
+<p>"REST supports diffrent data types one of the types is JSON, which allows better support for browser clients. One of the main reseans that REST is successful, that REST have better performance and scalability since it's reads can be cached, SOAP based reads cannot be cached. REST supports stateless CRUD operations, which gives the developer a better overview on the data", to read more by clicking <a href="https://medium.com/@LazaroIbanez/soap-vs-rest-68faf2ea970e
+"> here</a>. </p>
 
 <h6>Written by mdhughes</h6>
 
-<p>"There is nothing useful in SOAP that can't be done with REST for transport, and JSON, XML, or even plain text for data representation, to read more take a look on that<a href="https://stackoverflow.com/questions/76595/soap-or-rest-for-web-services"> link</a>." </p>
+<p>"There is nothing useful in SOAP that can't be done with REST for transport, and JSON, XML, or even plain text for data representation", to read more take a look on that<a href="https://stackoverflow.com/questions/76595/soap-or-rest-for-web-services"> link</a>. </p>
 
 <h6>Written by Stackify</h6>
 
-<p>"REST allows a better variety of data formats, whereas SOAP only allows XML. REST is generally considered easier to work with. Thanks to JSON which typically works better with data and offers faster parsing, REST offers better support for browser clients, you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>."</p>
+<p>"REST allows a better variety of data formats, whereas SOAP only allows XML. REST is generally considered easier to work with. Thanks to JSON which typically works better with data and offers faster parsing, REST offers better support for browser clients", you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>.</p>
 
 
 However, SOAP still have advantages<sup>7</sup>, it supports WS-security which adds some security features, SOAP uses WSDL makes your requests and responses very well structured.  SOAP works well in distributed enterprise environments where REST assumes direct point-to-point communication. The major advantage of SOAP is that it is a light-weight protocol since it is XML based, since xml is a lightweight data interchange language.
