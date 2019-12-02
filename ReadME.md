@@ -38,15 +38,6 @@ SOAP is a messaging protocol for the exchange of structured information(XML) in 
 - SOAP operates over any protocol(Such as HTTP, SMTP, TCP, etc...)
 - SOAP is programmable throughout any model, so it does not rely on a specific pattern.
 - Extensibility
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-  
   
 <h4> REST(Representational State Transfer) <sup>2</sup><img class="mi pn dp t u gs al hc" width="51" height="34" role="presentation" src="https://miro.medium.com/max/599/1*uHzooF1EtgcKn9_XiSST4w.png"> </h4>
 
