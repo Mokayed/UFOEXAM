@@ -1,5 +1,6 @@
 <h1 align="center"> REST is taking over SOAP </h1>
-<p>by: Hallur við Neyst, Murshed Kayed, Hazem Saeid</b>
+
+####by: Hallur við Neyst, Murshed Kayed, Hazem Saeid
 
 
 
