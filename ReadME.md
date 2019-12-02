@@ -141,7 +141,7 @@ tool used for couting lines of code in SOAP/REST is bash
 
 <p>REST is successful since it is the most used service in the industy. Already in 2011, 73% of the APis on Programmable Web used REST. SOAP is far behind but is still represented in 17% of the APIs. The reasoins that makes rest is more in use that it is much easier to implement since it requires less bandwidth and resources, and the uses standard HTTP in rest is much simpler. </p>
 
-<h5>Some people that had the same discussion</h5>
+<h5>Some people that had the same discussion about REST & SOAP</h5>
 
 
 <h6>Written by Lazaro Ibanez</h6>
