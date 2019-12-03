@@ -19,7 +19,7 @@ In the old days, SOAP services were the main protocol to web-based services. Tod
 <h3>What is REST & SOAP <g-emoji class="g-emoji" alias="interrobang" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2049.png">⁉️</g-emoji></h3>
 
 In this section we will dig deeper into the definition of the respective services in terms of definition and the characteristics of REST and SOAP.
-<h4> SOAP(Simple Object Access Protocol) <sup>1</sup> <img width="50" height="33" src="https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381.jpg" class="attachment-jaxenter_single_post_image size-jaxenter_single_post_image wp-post-image" alt="" srcset="https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381.jpg 600w, https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381-120x80.jpg 120w, https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381-300x200.jpg 300w" sizes="(max-width: 350px) 100vw, 350px"/> </h4>
+<h4> SOAP(Simple Object Access Protocol)  <img width="50" height="33" src="https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381.jpg" class="attachment-jaxenter_single_post_image size-jaxenter_single_post_image wp-post-image" alt="" srcset="https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381.jpg 600w, https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381-120x80.jpg 120w, https://jaxenter.com/wp-content/uploads/2015/06/shutterstock_280038503-e1433408034381-300x200.jpg 300w" sizes="(max-width: 350px) 100vw, 350px"/> </h4>
 
 <figure>
 <img src="./SOAP-envelope.png"/>
@@ -30,7 +30,7 @@ In this section we will dig deeper into the definition of the respective service
 
 <br><br>
 
-SOAP is a messaging protocol for the exchange of structured information(XML) in regards of web-service development. SOAP uses XML-structure for the format of messages, relies on protocols such as HTTP and SMTP for data transmission and message exchangement. XML communication consists of several elements to achieve messaging and its major characteristics: 
+SOAP<sup>1</sup> is a messaging protocol for the exchange of structured information(XML) in regards of web-service development. SOAP uses XML-structure for the format of messages, relies on protocols such as HTTP and SMTP for data transmission and message exchangement. XML communication consists of several elements to achieve messaging and its major characteristics: 
 
 - An envelope, which indicates how the message is structured and how it gets processed. 
 - Encoding rules, which specifies the accessible data-types.
@@ -39,9 +39,9 @@ SOAP is a messaging protocol for the exchange of structured information(XML) in 
 - SOAP is programmable throughout any model, so it does not rely on a specific pattern.
 - Extensibility
   
-<h4> REST(Representational State Transfer) <sup>2</sup><img class="mi pn dp t u gs al hc" width="51" height="34" role="presentation" src="https://miro.medium.com/max/599/1*uHzooF1EtgcKn9_XiSST4w.png"> </h4>
+<h4> REST(Representational State Transfer) <img class="mi pn dp t u gs al hc" width="51" height="34" role="presentation" src="https://miro.medium.com/max/599/1*uHzooF1EtgcKn9_XiSST4w.png"> </h4>
 
-REST is an architectural style for developing web-services. It is also known as being the successor of SOAP-based services. This is also known as RESTful web-services. This style, allows the requesting system to manipulate textual documents(or representations) by using a set of stateless operations. 
+REST<sup>2</sup> is an architectural style for developing web-services. It is also known as being the successor of SOAP-based services. This is also known as RESTful web-services. This style, allows the requesting system to manipulate textual documents(or representations) by using a set of stateless operations. 
 RESTful elements consist of:
 
 - **Client-Server:** The separation of client and server, so that the server and client can be run independently of each other. 
@@ -52,13 +52,9 @@ RESTful elements consist of:
 ![](/REST.jpg)
 <p>REST webservice: <a href="https://medium.com/@sagar.mane006/understanding-rest-representational-state-transfer-85256b9424aa">https://medium.com/@sagar.mane006/understanding-rest-representational-state-transfer-85256b9424aa</a></p>
 
-Some of the problems we encounted during our experiment had mainly to do with SOAP. We had no freedom of choice when it came to the response (only XML) as we did with REST (JSON,XML etc.). Also we spent more time doing the SOAP part, because the lines of code was more than in REST. 
+<h1>Evidence from our project <g-emoji class="g-emoji" alias="mag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png">🔍</g-emoji></h1>
 
-
-
-<h1>Evidence from our project<sup>3</sup> <g-emoji class="g-emoji" alias="mag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png">🔍</g-emoji></h1>
-
-<p>The following screenshots contain relevant evidence and explanations from our mini assignment in system integration. In the following points, we will discuss the diffirence between SOAP/REST requests and responses according to our experience from our project. We will also explain the WSDL file in the project, then we will show our endpoints. Finally we will conclude by counting the amount of lines comparably between the SOAP and REST project.
+<p>The following screenshots contain relevant evidence and explanations from our mini assignment<sup>3</sup> in system integration. In the following points, we will discuss the diffirence between SOAP/REST requests and responses according to our experience from our project. We will also explain the WSDL file in the project, then we will show our endpoints. Finally we will conclude by counting the amount of lines comparably between the SOAP and REST project.
 
 <figure>
 <h4>1. Requests in SOAP vs REST</h4>
@@ -91,20 +87,20 @@ Some of the problems we encounted during our experiment had mainly to do with SO
 
   <p>As seen, the response from SOAP is made in XML format, and this is something that cannot be changed in SOAP. In REST there is more data-format opportunities to choose. As seen we went for JSON. As a result of it being JSON the resposne became much smaller than the envelope response</p>
 
-<h4>3. The SOAP WSDL File<sup>4</sup></h4>
+<h4>3. The SOAP WSDL File</h4>
 
-<p>SOAP endpoints are connected to the url of the WSDL file. Our file ended up having 193 XML lines. Although we liked the idea of having requests/responses well structured as they are in WSDL, we felt forced because of the required XML data type, and as a result the file became verbose. In REST there is no WSDL file because of it being relied upon HTTP standard.</p>
+<p>SOAP endpoints are connected to the url of the WSDL file<sup>4</sup>. Our file ended up having 193 XML lines. Although we liked the idea of having requests/responses well structured as they are in WSDL, we felt forced because of the required XML data type, and as a result the file became verbose. In REST there is no WSDL file because of it being relied upon HTTP standard.</p>
 
-<h4>4. Endpoints<sup>5,6<sup></h4>
+<h4>4. Endpoints</h4>
 
 
 <img src="./RESTCustomerEndpoint.png">
 <img src="./RESTNamePathVariable.png">
 <img src="./RESTCustomerNameBrowser.png" height="75">
-<figcaption><li>Endpoint for showing customer name and further details in REST. Also the endpoint is accesible through a browser</li></figcaption>
+<figcaption><li>Endpoint for showing customer name and further details in REST<sup>5</sup>. Also the endpoint is accesible through a browser</li></figcaption>
 
 <img src="./SOAPDepositEndpoint.png">
-<figcaption><li>Endpoint for deposit request in SOAP, which can only be referred to from the WSDL path</li></figcaption>
+<figcaption><li>Endpoint for deposit request in SOAP<sup>6</sup>, which can only be referred to from the WSDL path</li></figcaption>
 <p>
 <p>As seen, the REST implementation of the endpoints are simple, however in SOAP you need to make both a request and response endpoint which ends up being alot of code.</p>
 
@@ -138,19 +134,18 @@ tool used for couting lines of code in SOAP/REST is bash
 
 <h6>Written by Lazaro Ibanez</h6>
 
-<p><strong>"</strong>REST supports diffrent data types one of the types is JSON, which allows better support for browser clients. One of the main reseans that REST is successful, that REST have better performance and scalability since it's reads can be cached, SOAP based reads cannot be cached. REST supports stateless CRUD operations, which gives the developer a better overview on the data<strong>"</strong>, to read more by clicking <a href="https://medium.com/@LazaroIbanez/soap-vs-rest-68faf2ea970e
-"> here</a>. </p>
+<p><strong>"</strong>REST supports diffrent data types one of the types is JSON, which allows better support for browser clients. One of the main reseans that REST is successful, that REST have better performance and scalability since it's reads can be cached, SOAP based reads cannot be cached. REST supports stateless CRUD operations, which gives the developer a better overview on the data<sup>7</sup><strong>"</strong>. </p>
 
 <h6>Written by mdhughes</h6>
 
-<p><strong>"</strong>There is nothing useful in SOAP that can't be done with REST for transport, and JSON, XML, or even plain text for data representation<strong>"</strong>, to read more take a look on that<a href="https://stackoverflow.com/questions/76595/soap-or-rest-for-web-services"> link</a>. </p>
+<p><strong>"</strong>There is nothing useful in SOAP that can't be done with REST for transport, and JSON, XML, or even plain text for data representation<sup>8</sup><strong>"</strong>. </p>
 
 <h6>Written by Stackify</h6>
 
-<p><strong>"</strong>REST allows a better variety of data formats, whereas SOAP only allows XML. REST is generally considered easier to work with. Thanks to JSON which typically works better with data and offers faster parsing, REST offers better support for browser clients<strong>"</strong>, you can read more by <a href="https://stackify.com/soap-vs-rest/"> clicking here</a>.</p>
+<p><strong>"</strong>REST allows a better variety of data formats, whereas SOAP only allows XML. REST is generally considered easier to work with. Thanks to JSON which typically works better with data and offers faster parsing, REST offers better support for browser clients<sup>9</sup><strong>"</strong>.</p>
 
 
-However, SOAP still have advantages<sup>7</sup>, it supports WS-security which adds some security features, SOAP uses WSDL makes your requests and responses very well structured.  SOAP works well in distributed enterprise environments where REST assumes direct point-to-point communication. The major advantage of SOAP is that it is a light-weight protocol since it is XML based, since xml is a lightweight data interchange language.
+However, SOAP still have advantages<sup>10</sup>, it supports WS-security which adds some security features, SOAP uses WSDL makes your requests and responses very well structured.  SOAP works well in distributed enterprise environments where REST assumes direct point-to-point communication. The major advantage of SOAP is that it is a light-weight protocol since it is XML based, since xml is a lightweight data interchange language.
 
 
 <br>
@@ -160,6 +155,18 @@ However, SOAP still have advantages<sup>7</sup>, it supports WS-security which a
 
 After comparing REST and SOAP in various areas in our project, we see a pattern in where REST is being adopted as the new industry standard, also being referenced as the successor of SOAP. The comparisons that made us most sure had to do with popularity, flexibilty, verbosity and maintenance. In the experiments that we conducted showed a significant diffirence in creating SOAP services and required a great amount of work in comparison to constructing RESTful webservices. However, SOAP still contains some positive elements, one of them being WS-Security and a well structured request/response architecture. One of the major challenges that SOAP suffers is the flexibility regarding messaging formats, where SOAP only can use XML and REST has various diffirent messaging formats(such as JSON,XML, PLAN TEXT etc.). As a result the rise of RESTful web services are justifies, by being more suitable and compliant to the developers and to the ever-changing industries.
 
+## Technologies
+
+Technologies used: 
+- Postman
+- SOAPUI
+- IntelliJ
+- Java 8
+- Spring boot
+- REST
+- SOAP
+- Maven
+- H2 Database
 
 ## References
 <ol>
@@ -169,5 +176,25 @@ After comparing REST and SOAP in various areas in our project, we see a pattern 
   <li>WSDL file in our SOAP project <a href="customerDetailsWsdl.wsdl.xml">./customerDetailsWsdl.wsdl.xml</a></li>
   <li>Controller containing endpoints in our REST project <a href="https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/ResttfulService/src/main/java/dk/dd/demo/controller/CustomerController.java">https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/ResttfulService/src/main/java/dk/dd/demo/controller/CustomerController.java</a></li>
   <li>Request and Response endpoints in our SOAP project <a href="https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java">https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java</a></li>
+ 
+ <li>soap vs rest (stackoverflow) <a href="https://medium.com/@LazaroIbanez/soap-vs-rest-68faf2ea970e">https://medium.com/@LazaroIbanez/soap-vs-rest-68faf2ea970e</a></li>
+ <li>soap or rest for web services <a href="https://stackoverflow.com/questions/76595/soap-or-rest-for-web-services">https://stackoverflow.com/questions/76595/soap-or-rest-for-web-services</a></li>
+ <li>soap vs rest (stackify) <a href="https://stackify.com/soap-vs-rest/">https://stackify.com/soap-vs-rest/</a> </li>
   <li>Understanding SOAP and REST basics <a href="https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/">https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/</a></li>
 </ol> 
+
+## About us
+
+<b>Murched kayed</b>
+<strong>Education</strong>: AP Degree in Computer Science
+<strong>School</strong>: Bachelor Degree in Software Development, at Copenhagen business Academy
+
+<b>Hazem Saeid</b>
+<strong>Education</strong>: AP Degree in Computer Science
+<strong>School</strong>: Bachelor Degree in Software Development, at Copenhagen business Academy
+
+<b>Hallur Við Neyst</b>
+<strong>Education</strong>: AP Degree in Computer Science
+<strong>School</strong>: Bachelor Degree in Software Development, at Copenhagen business Academy
+
+_Contact us on marik.3000@hotmail.com_
