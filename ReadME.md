@@ -185,16 +185,9 @@ Technologies used:
 
 ## About us
 
-<b>Murched kayed</b>
+<b>Mo kayed</b>
 <strong>Education</strong>: AP Degree in Computer Science
 <strong>School</strong>: Bachelor Degree in Software Development, at Copenhagen business Academy
 
-<b>Hazem Saeid</b>
-<strong>Education</strong>: AP Degree in Computer Science
-<strong>School</strong>: Bachelor Degree in Software Development, at Copenhagen business Academy
-
-<b>Hallur Við Neyst</b>
-<strong>Education</strong>: AP Degree in Computer Science
-<strong>School</strong>: Bachelor Degree in Software Development, at Copenhagen business Academy
 
 _Contact us on marik.3000@hotmail.com_
