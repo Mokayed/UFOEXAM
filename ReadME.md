@@ -183,7 +183,7 @@ Technologies used:
   <li>Understanding SOAP and REST basics <a href="https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/">https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/</a></li>
 </ol> 
 
-## About us
+## About me:
 
 <b>Mo kayed</b>
 <strong>Education</strong>: AP Degree in Computer Science
